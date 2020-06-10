@@ -1,23 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://latex.now.sh/style.css">
-    <title>Masked Abstraction</title>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Masked User - Be Safe. Be Luxurian.</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+  <style>
+	body {
+	direction: ltr;
+	  background: black;
+	  color: white;
+	}
+	.button-white {
+	  background: white !important;
+	  color: black !important;
+	  border-color: white !important;
+	}
+	.input-black {
+	  color: black;
+	}
+  </style>
 </head>
 <body>
-    <h1>Masked Abstraction</h1>
-    <p class="author">Make beautiful things for non-nerdy people.<br/> WE KNOW, WE CREATE.</p>
-    <div class="abstract">
-        <h2>Who we are?</h2>
-        <p>WE are NERDs. WE know a lot about computers and machines. WE decide to use this knowledge to create tools for non-nerdy people.</p>
-    </div>
-    <h2>Projects</h2>
-    <ul>
-        <li>SOON!.</li>
-    </ul>
-    <h2>Contact</h2>
-    <p>Feel free to contact us at <a href="mailto:masked-abstraction@pm.me">masked-abstraction@pm.me</a> .</p>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div id="fullpage">
+	<div class="section active">
+	  <div class="container">
+		<div class="row">
+		  <div style="text-align: center" class="one-full column" >
+			<h1 style="font-size: 5em;"><b style="text-transform: uppercase;">Masked Abstraction</b></h1>
+			<p style="">Make <b>Beautiful</b> things for <b>Non-Nerdy</b> people.</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="section">
+	  <div class="container">
+		<div class="row">
+		  <div class="one-full column" >
+			<h2 style="font-size: 3em;"><b>WE KNOW, WE CREATE</b></h2>
+			<p>We <b>know</b> a lot about <b>Computers And Machines</b>. We <b>Decide</b> to <b>Use</b> this knowledge to <b>Create tools</b> for non-nerdy people.</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="section">
+	  <div class="container">
+		<div class="row">
+		  <div class="one-full column" >
+			<h2 style="font-size: 3em;"><b>Our Projects</b></h2>
+			<ul>
+				<li>SOON!</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="section">
+	  <div class="container">
+		<div class="row">
+		  <div class="one-full column" >
+			<h2 style="font-size: 3em;"><b>Contact Us</b></h2>
+			<p>Feel <b>Free</b> to contact us at <a href="mailto:masked-abstraction@pm.me">masked-abstraction@pm.me</a> .</p>
+			<i>Wait Us! ;)</i>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+  <script>
+	new fullpage('#fullpage', {
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+//methods
+fullpage_api.setAllowScrolling(true);
+
+  </script>
 </body>
 </html>
